@@ -87,10 +87,15 @@
         "high": 120
     },
     "customurlscheme": "moodlemobile",
-    "sites": [],
-    "multisitesdisplay": "",
+    "sites": [
+        {
+            "name": "Custom Site",
+            "url": "http://0.0.0.0:8000"
+        }
+    ],
+    "multisitesdisplay": "list",
     "sitefindersettings": {},
-    "onlyallowlistedsites": false,
+    "onlyallowlistedsites": true,
     "forcedefaultlanguage": false,
     "privacypolicy": "https://moodle.net/moodle-app-privacy/",
     "notificoncolor": "#f98012",
